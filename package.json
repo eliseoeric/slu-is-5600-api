@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
